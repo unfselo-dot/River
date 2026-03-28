@@ -10,6 +10,9 @@ from db import (
 )
 from keyboards import game_keyboard
 
+print("BOT_TOKEN loaded:", bool(BOT_TOKEN))
+print("ADMINS loaded:", ADMINS)
+print("MAX_PLAYERS loaded:", MAX_PLAYERS)
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
 
